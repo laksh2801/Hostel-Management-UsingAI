@@ -1,19 +1,12 @@
 # Hostel Management System with AI Chatbot
 
-![Project Banner](path/to/banner/image.jpg)  
+
 *Enhance hostel management efficiency with PHP, XAMPP, and an AI-powered chatbot.*
 
 ## 📚 Table of Contents
 - [About the Project](#about-the-project)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation Guide](#installation-guide)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ---
 
