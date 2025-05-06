@@ -1,115 +1,163 @@
-# 🏨 AI-Enhanced Hostel Management System
+# 🏨 AI-Powered Hostel Management System using PHP & AI
+
+> 🎓 Developed by **Laksh Kadyan**, **Manan Jain**, **Palak Maheshwari** , **Prabhansh Rai**  
+> 🏛️ Jain University, Bengaluru  
+> 🚀 A smart and efficient Hostel Management Portal with AI integration.
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Tech](https://img.shields.io/badge/Built%20With-PHP%20%7C%20MySQL%20%7C%20HTML%20%7C%20CSS-blue)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-![Author](https://img.shields.io/badge/Author-Laksh%20Kadyan-orange)
-
-> 🎓 Developed by **Laksh Kadyan**, Jain University  
-> 💡 A full-featured hostel management web app with AI chatbot integration and dynamic billing — crafted with originality and functionality in mind.
+![Status](https://img.shields.io/badge/Project-Complete-brightgreen)
+![Tech](https://img.shields.io/badge/Built%20With-PHP%20%7C%20MySQL%20%7C%20JavaScript%20%7C%20AI-blue)
 
 ---
 
-## 📋 Project Description
+## ✨ Project Highlights
 
-This is a smart **Hostel Management System** tailored for academic use. It handles everything from **student registration**, **admin management**, and **room allocation** to **automated chatbot responses**, **bill calculation**, and a **mock payment system** — all wrapped in a clean, responsive interface.
-
-> ✅ All branding replaced with **original work by Laksh Kadyan**  
-> ✅ Includes chatbot integration, multi-role login, and dynamic UI elements  
-
----
-
-## 🌟 Key Features
-
-- 🔐 Student & Admin Login
-- 🧑‍💼 Admin can manage student records
-- 📚 Student can register, book rooms, and view bills
-- 🛏️ Dynamic year-based room booking (1st, 2nd, 3rd year)
-- 💬 AI-powered chatbot with 30+ instant responses
-- 🧾 Smart payment module with calculated totals
-- 📄 Bill summary display and printing option
-- 🧠 Chatbot resumes flow after payment
-- 🖼️ Screenshot-ready layout
-- 📦 No dependencies or branding from external templates
+- 🔐 Student and Admin Login Systems  
+- 🧠 AI Chatbot embedded in the footer  
+- 📋 Smart Registration and Year-wise Room Booking  
+- 🖥️ Admin Dashboard for Student Oversight  
+- 💳 Payment Module with Bill Generation and Fake QR  
+- 🔄 Chatbot resumes conversation post-payment  
+- 📦 Simple folder structure & fully documented  
+- 📸 Visual walkthrough with screenshots  
 
 ---
 
-## 🤖 AI Chatbot Overview
+## 📂 Folder Structure
 
-The chatbot is custom-coded in **JavaScript**, designed to simulate smart responses without backend processing.
+```bash
+Hostel-Management-UsingAI/
+│
+├── admin/              → Admin panel files
+├── student/            → Student interface
+├── chatbot/            → Static chatbot logic
+├── includes/           → PHP includes & DB config
+├── images/             → Assets like QR code
+├── database.sql        → Database file for import
+├── index.php           → Main entry point
+└── README.md           → This beautiful file 😄
+```
 
-### 💬 Topics it can answer:
+---
 
-- Room types & facilities  
-- Rules and regulations  
-- Water, electricity & Wi-Fi  
-- Fees and canteen info  
-- Security & visitor policy  
-- Payment instructions  
+## 🧠 Chatbot Features
 
-> It appears fixed in the footer on every page  
-> Automatically resumes with “Hi, how can I help?” after payments  
-> Built without any database — fast and lightweight
+- 🗂️ Fixed in footer section
+- 🤖 30+ common queries with crisp responses
+- 💧 Water, ⚡ Electricity, 🔐 Security, 📋 Rules
+- 🍽️ Canteen info, 🚪 Gate Timings, 📶 Wi-Fi
+- 💬 Auto-resumes after payment
+- 🎯 No database required – works with JS
+
+---
+
+## 💳 Payment Interface
+
+- 🧾 Total calculation based on selection
+- 📸 Auto QR code (image placeholder)
+- ✅ Payment Confirmation
+- 🔁 Chatbot reactivates after payment
 
 ---
 
 ## 🖼️ Screenshots
 
-> Below are key screens from the Hostel Management System:
-
 ### 🔐 Login Pages
 
-| Student Login | Admin Login |
-|---------------|-------------|
-| ![](./screenshots/student-login.jpg) | ![](./screenshots/admin-login.jpg) |
-
-### 📊 Dashboard
-
-| Dashboard View |
-|----------------|
-| ![](./screenshots/dashboard.jpg) |
-
-### 💳 Payment & Bill
-
-| Payment Page |
-|--------------|
-| ![](./screenshots/payment.jpg) |
-
-### 🤖 Chatbot
-
-| AI Chatbot in Footer |
-|----------------------|
-| ![](./screenshots/chatbot.jpg) |
+| 👨‍🎓 Student Login | 👨‍💼 Admin Login |
+|-------------------|------------------|
+| <img src="https://github.com/laksh2801/Hostel-Management-UsingAI/blob/main/WhatsApp%20Image%202025-04-17%20at%2008.50.58_ec989fca.jpg?raw=true" width="480"/> | <img src="https://github.com/laksh2801/Hostel-Management-UsingAI/blob/main/WhatsApp%20Image%202025-04-17%20at%2008.50.59_e3aae508.jpg?raw=true" width="480"/> |
 
 ---
 
-## 🗂️ Project Structure
+### 📊 Admin Dashboard
 
-```plaintext
-HostelManagement/
-│
-├── admin/                      # Admin dashboard pages
-│   ├── dashboard.php
-│   ├── manage-students.php
-│   └── ...
-│
-├── student/                    # Student interface
-│   ├── index.php
-│   ├── register.php
-│   └── ...
-│
-├── chatbot/                    # AI chatbot logic (JS)
-│   └── chatbot.js
-│
-├── includes/                   # Configuration files
-│   └── config.php
-│
-├── images/                     # QR code, icons, etc.
-│   └── qr.jpg
-│
-├── screenshots/                # Screenshots for README
-│   └── *.jpg
-│
-├── database.sql                # MySQL database schema
-├── index.php                   # Main landing page
-└── README.md                   # Project documentation
+<p align="center">
+  <img src="https://github.com/laksh2801/Hostel-Management-UsingAI/blob/main/WhatsApp%20Image%202025-04-17%20at%2008.51.00_58c67c9b.jpg?raw=true" width="90%"/>
+</p>
+
+---
+
+### 💬 Chatbot Interface
+
+<p align="center">
+  <img src="https://github.com/laksh2801/Hostel-Management-UsingAI/blob/main/WhatsApp%20Image%202025-04-17%20at%2008.12.36_c1949b6a.jpg?raw=true" width="60%"/>
+</p>
+
+---
+
+### 💳 Payment Window
+
+<p align="center">
+  <img src="https://github.com/laksh2801/Hostel-Management-UsingAI/blob/main/WhatsApp%20Image%202025-04-17%20at%2008.12.37_70a7b211.jpg?raw=true" width="60%"/>
+</p>
+
+---
+
+## 👥 Login Access
+
+### 🔑 Admin Login  
+- **URL:** `/admin/index.php`  
+- **Username:** `admin`  
+- **Password:** `Password@123`
+
+### 🧑 Student Login  
+- **URL:** `/student/index.php`  
+- 📥 Register as a new user to login
+
+---
+
+## ⚙️ How to Set Up Locally (XAMPP)
+
+1. Copy the project folder to `htdocs` directory inside XAMPP.
+2. Start **Apache** and **MySQL** in XAMPP.
+3. Visit [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
+4. Create a new database named `hostel`.
+5. Import the provided `database.sql` file.
+6. Open browser and go to:  
+   👉 `http://localhost/Hostel-Management-UsingAI/`
+
+---
+
+## 🛠️ Customization Tips
+
+- 🧠 **Chatbot logic:** Modify `chatbot/chatbot.js`
+- 🎨 **UI Styling:** Update CSS files in each module
+- 🧾 **QR Image:** Replace `/images/qr.png` or similar
+- 📷 **Screenshots:** Upload images to GitHub and embed as shown
+
+---
+
+## 🧪 Tech Stack
+
+| Frontend     | Backend   | Database | AI Logic | Extras     |
+|--------------|-----------|----------|----------|------------|
+| HTML5, CSS3  | PHP       | MySQL    | JavaScript | Bootstrap |
+| JavaScript   | AJAX      | phpMyAdmin | Static AI | QR Images  |
+
+---
+
+## 🧑‍💻 Author
+
+**Laksh Kadyan**  
+📍 Jain University, Bengaluru  
+💡 Passionate about AI & Web Technologies  
+📬 Reach out via GitHub issues or University contact
+
+---
+
+## 📝 License
+
+Licensed under the **MIT License**  
+Feel free to fork, clone, and enhance!
+
+---
+
+## 🌟 Like the Project?
+
+If you found this useful:
+- ⭐ Star this repository  
+- 🍴 Fork it  
+- 📝 Share your feedback
+
+Let’s build smart systems together! 💬
