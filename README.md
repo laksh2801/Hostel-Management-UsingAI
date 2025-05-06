@@ -6,91 +6,110 @@
 ![Author](https://img.shields.io/badge/Author-Laksh%20Kadyan-orange)
 
 > 🎓 Developed by **Laksh Kadyan**, Jain University  
-> 🚀 A complete hostel management web application with an AI-powered chatbot, sleek design, and dynamic functionality — no templates, no prebuilt branding. 100% original.
+> 💡 A full-featured hostel management web app with AI chatbot integration and dynamic billing — crafted with originality and functionality in mind.
 
 ---
 
 ## 📋 Project Description
 
-This is a smart **Hostel Management System** that simplifies accommodation tasks for both **admin** and **students**. It handles room bookings, records, payments, and FAQs using a **custom-built AI chatbot** embedded directly in the footer for a seamless experience.
+This is a smart **Hostel Management System** tailored for academic use. It handles everything from **student registration**, **admin management**, and **room allocation** to **automated chatbot responses**, **bill calculation**, and a **mock payment system** — all wrapped in a clean, responsive interface.
+
+> ✅ All branding replaced with **original work by Laksh Kadyan**  
+> ✅ Includes chatbot integration, multi-role login, and dynamic UI elements  
 
 ---
 
 ## 🌟 Key Features
 
-- 🔐 **Admin & Student Login**
-- 🧑‍💼 Admin can add, edit, delete student records
-- 🛏️ Real-time **room booking** system
-- 📅 Year-based accommodation (1st, 2nd, 3rd year)
-- 💬 **AI Chatbot** (footer-based with static JS logic)
-- 🧾 **Dynamic bill generation** with selected options
-- 📸 Receipt view and print functionality
-- 💳 **Demo payment window** with auto-calculated totals
-- 🧠 30+ quick response triggers for common queries
-- 🔁 Smart chatbot flow resuming after actions like "Payment Success"
-- 🔒 Secure login forms with validation
-- 📦 All **"CodeAstro"** references removed!
+- 🔐 Student & Admin Login
+- 🧑‍💼 Admin can manage student records
+- 📚 Student can register, book rooms, and view bills
+- 🛏️ Dynamic year-based room booking (1st, 2nd, 3rd year)
+- 💬 AI-powered chatbot with 30+ instant responses
+- 🧾 Smart payment module with calculated totals
+- 📄 Bill summary display and printing option
+- 🧠 Chatbot resumes flow after payment
+- 🖼️ Screenshot-ready layout
+- 📦 No dependencies or branding from external templates
 
 ---
 
-## 🧠 AI Chatbot Overview
+## 🤖 AI Chatbot Overview
 
-> **"Hi, how can I help?"** 🤖  
-This project includes a custom JavaScript-based AI Chatbot built without database integration. Instead, it uses keyword triggers to return crisp, predefined responses.
+The chatbot is custom-coded in **JavaScript**, designed to simulate smart responses without backend processing.
 
-### 💬 Key Topics:
-- Fees & structure  
-- Canteen menu  
+### 💬 Topics it can answer:
+
+- Room types & facilities  
 - Rules and regulations  
-- Security & surveillance  
-- Electricity, water, WiFi  
-- Payment help  
-- Room types  
-- Year-specific options
+- Water, electricity & Wi-Fi  
+- Fees and canteen info  
+- Security & visitor policy  
+- Payment instructions  
 
-> ✅ Chatbot resumes flow after payment  
-> ✅ All responses are short, structured, and non-repetitive  
-> ✅ Embedded cleanly in the footer for access from any page
+> It appears fixed in the footer on every page  
+> Automatically resumes with “Hi, how can I help?” after payments  
+> Built without any database — fast and lightweight
 
 ---
 
 ## 🖼️ Screenshots
 
-> Add your own screenshots in the `/screenshots/` folder.
+> Below are key screens from the Hostel Management System:
 
-| Login Page | Dashboard | Payment |
-|------------|-----------|---------|
-| ![Login](./screenshots/login.png) | ![Dashboard](./screenshots/dashboard.png) | ![Payment](./screenshots/payment.png) |
+### 🔐 Login Pages
+
+| Student Login | Admin Login |
+|---------------|-------------|
+| ![](./screenshots/student-login.jpg) | ![](./screenshots/admin-login.jpg) |
+
+### 📊 Dashboard
+
+| Dashboard View |
+|----------------|
+| ![](./screenshots/dashboard.jpg) |
+
+### 💳 Payment & Bill
+
+| Payment Page |
+|--------------|
+| ![](./screenshots/payment.jpg) |
+
+### 🤖 Chatbot
+
+| AI Chatbot in Footer |
+|----------------------|
+| ![](./screenshots/chatbot.jpg) |
 
 ---
 
-## 🗂️ File Structure
+## 🗂️ Project Structure
 
 ```plaintext
 HostelManagement/
 │
-├── admin/                      # Admin dashboard files
+├── admin/                      # Admin dashboard pages
 │   ├── dashboard.php
 │   ├── manage-students.php
 │   └── ...
 │
-├── student/                    # Student-facing modules
+├── student/                    # Student interface
 │   ├── index.php
 │   ├── register.php
 │   └── ...
 │
-├── chatbot/                    # AI chatbot scripts
+├── chatbot/                    # AI chatbot logic (JS)
 │   └── chatbot.js
 │
-├── includes/                   # Config and helper scripts
+├── includes/                   # Configuration files
 │   └── config.php
 │
-├── images/                     # Icons, hostel images, QR code
-│   └── qr.png
+├── images/                     # QR code, icons, etc.
+│   └── qr.jpg
 │
-├── screenshots/                # Your app screenshots (add yourself)
-│   └── *.png
+├── screenshots/                # Screenshots for README
+│   └── *.jpg
 │
-├── database.sql                # Import into phpMyAdmin
-├── index.php                   # Landing page
-└── README.md                   # You're reading this!
+├── database.sql                # MySQL database schema
+├── index.php                   # Main landing page
+└── README.md                   # Project documentation
